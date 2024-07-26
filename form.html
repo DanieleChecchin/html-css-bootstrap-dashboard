@@ -98,7 +98,7 @@
 
                     <!--Anno pubblicazione-->
                     <div class="col-12 col-md-4">
-                        <div class="my-3">
+                        <div class="mb-3">
                             <label for="anno" class="form-label">Anno di Pubblicazione</label>
                             <input type="number" class="form-control" id="anno" min="1970" max="2024" placeholder="Inserisci l'anno">
                         </div>
@@ -112,8 +112,23 @@
                         </div>
                     </div>
 
+                    <!--Linea-->
+
+                    <div class="col-12">
+                    </div>
+
                     <!--Text area-->
-                    <div class="col"></div>
+                    <div class="col-12">
+                        <div class="mb-2">
+                            <label for="message" class="form-label">Note</label>
+                            <textarea class="form-control border" id="message" placeholder="Inserisci eventuali note sul libro" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Disponibile anche in digitale</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+                    </div>
                 </div>
             </div>
         </form>    
